@@ -1,8 +1,10 @@
-package by.bsu.java.projectlabs.taxidepot;
+package by.bsu.java.projectlabs.taxidepot.Car;
 
-public abstract class Car implements Comparable<Car>{
+public class Car implements Comparable<Car>{
     private int prise;
     private int fuelConsumption;
+
+    private String carModel;
 
     private String typeOfCar;
 
@@ -14,20 +16,32 @@ public abstract class Car implements Comparable<Car>{
         return fuelConsumption;
     }
 
-    public Car(int prise, int fuelConsumption) {
+    public String getCarModel() {
+        return carModel;
+    }
+
+    public Car(int prise, int fuelConsumption, String carModel) {
         this.prise = prise;
         this.fuelConsumption = fuelConsumption;
+        this.carModel = carModel;
+    }
+
+    public void printAdditionalServices(){
+        System.out.print("Additional services: ");
     }
 
     @Override
     public int compareTo(Car o) {
-        return (o.fuelConsumption.compareTo(this.fuelConsumption));
+        return (this.fuelConsumption - o.fuelConsumption);
     }
+
     @Override
     public String toString() {
         return "Car{" +
                 "prise=" + prise +
-                ", fuelConsumption='" + fuelConsumption + '\'' +
+                ", fuelConsumption=" + fuelConsumption +
+                ", carModel='" + carModel + '\'' +
+                ", typeOfCar='" + typeOfCar + '\'' +
                 '}';
     }
 }

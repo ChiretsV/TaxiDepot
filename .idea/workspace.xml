@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec2ab4c-bec7-416d-8110-a7cf3977fcb6" name="Changes" comment="">
+    <list default="true" id="bec2ab4c-bec7-416d-8110-a7cf3977fcb6" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/businessClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/businessClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/comfortClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/comfortClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/economyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/economyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/minivanClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/minivanClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/businessClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/BusinessClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/comfortClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/ComfortClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/economyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/EconomyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/minivanClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/java/projectlabs/taxidepot/Car/typeofcar/MinivanClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,18 @@
       <workItem from="1669571045888" duration="13331000" />
       <workItem from="1669585143882" duration="996000" />
       <workItem from="1669586151470" duration="783000" />
+      <workItem from="1669647688119" duration="2239000" />
+      <workItem from="1670243471478" duration="147000" />
+      <workItem from="1670243628269" duration="2809000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1669647785869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669647785869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
